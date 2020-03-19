@@ -14,6 +14,7 @@ namespace Cachipun
             Console.WriteLine(jugador.getName());         //Verificar que todo funciona
             Console.WriteLine(jugador.getLastName());
             Console.WriteLine("Juego: " + jugador.Lanzar()); //Comportamiento
+            Console.ReadKey();
         }
     }
 }
